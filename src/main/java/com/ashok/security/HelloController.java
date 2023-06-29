@@ -15,7 +15,8 @@ public class HelloController {
 	public String sayBye() {
 		return "get lost from security application!!";
 	}
-	
+
+	//added new API to greet the user
 	@GetMapping("/greet")
 	public String greetings() {
 		return "Hello all from security application!!";
