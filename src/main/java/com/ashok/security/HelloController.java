@@ -15,5 +15,10 @@ public class HelloController {
 	public String sayBye() {
 		return "get lost from security application!!";
 	}
+	
+	@GetMapping("/greet")
+	public String greetings() {
+		return "Hello all from security application!!";
+	}
 
 }
