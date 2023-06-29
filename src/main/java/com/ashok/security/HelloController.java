@@ -22,4 +22,9 @@ public class HelloController {
 		return "Hello all from security application!!";
 	}
 
+	@GetMapping("/demo")
+	public String demo() {
+		return "Hello all from security application!!";
+	}
+
 }
