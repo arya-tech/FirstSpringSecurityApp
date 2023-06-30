@@ -20,5 +20,9 @@ public class HelloController {
 	public String greetings() {
 		return "Hello all from security application!!";
 	}
+	@GetMapping("/greeting")
+	public String greetings11() {
+		return "Hello all from security application!!";
+	}
 
 }
